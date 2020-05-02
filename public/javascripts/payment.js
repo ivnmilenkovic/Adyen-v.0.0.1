@@ -51,7 +51,7 @@ const dropin = checkout.create('dropin').mount('#dropin-container');
 
 function showFinalResult(response) {
   // todo: redirect to success page
-  alert(response);
+  alert(JSON.stringify(response));
 }
 
 
